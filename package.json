@@ -1,0 +1,33 @@
+{
+  "name": "galatti-cli",
+  "version": "1.0.0",
+  "description": "Cli para geração de apis genéricas em node.js",
+  "main": "src/index.js",
+  "bin": {
+    "@galatti/galatti-cli": "bin/galatti-cli",
+    "galatti": "bin/galatti-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Galatti",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "chalk": "^3.0.0",
+    "esm": "^3.2.25",
+    "execa": "^4.0.0",
+    "inquirer": "^7.0.4",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.3",
+    "pkg-install": "^1.0.0"
+  }
+}
